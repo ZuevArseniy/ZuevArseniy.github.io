@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,150 @@
             margin: 0;
         }
 
+        .d-none {
+            display: none !important
+        }
+
+        .d-inline {
+            display: inline !important
+        }
+
+        .d-inline-block {
+            display: inline-block !important
+        }
+
+        .d-block {
+            display: block !important
+        }
+
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important
+        }
+
+        .d-inline-flex {
+            display: -ms-inline-flexbox !important;
+            display: inline-flex !important
+        }
+
+        @media (min-width:576px) {
+            .d-sm-none {
+                display: none !important
+            }
+
+            .d-sm-inline {
+                display: inline !important
+            }
+
+            .d-sm-inline-block {
+                display: inline-block !important
+            }
+
+            .d-sm-block {
+                display: block !important
+            }
+
+            .d-sm-flex {
+                display: -ms-flexbox !important;
+                display: flex !important
+            }
+
+            .d-sm-inline-flex {
+                display: -ms-inline-flexbox !important;
+                display: inline-flex !important
+            }
+        }
+
+        @media (min-width:768px) {
+            .d-md-none {
+                display: none !important
+            }
+
+            .d-md-inline {
+                display: inline !important
+            }
+
+            .d-md-inline-block {
+                display: inline-block !important
+            }
+
+            .d-md-block {
+                display: block !important
+            }
+
+            .d-md-flex {
+                display: -ms-flexbox !important;
+                display: flex !important
+            }
+
+            .d-md-inline-flex {
+                display: -ms-inline-flexbox !important;
+                display: inline-flex !important
+            }
+        }
+
+        @media (min-width:992px) {
+            .d-lg-none {
+                display: none !important
+            }
+
+            .d-lg-inline {
+                display: inline !important
+            }
+
+            .d-lg-inline-block {
+                display: inline-block !important
+            }
+
+            .d-lg-block {
+                display: block !important
+            }
+
+            .d-lg-flex {
+                display: -ms-flexbox !important;
+                display: flex !important
+            }
+
+            .d-lg-inline-flex {
+                display: -ms-inline-flexbox !important;
+                display: inline-flex !important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .d-xl-none {
+                display: none !important
+            }
+
+            .d-xl-inline {
+                display: inline !important
+            }
+
+            .d-xl-inline-block {
+                display: inline-block !important
+            }
+
+            .d-xl-block {
+                display: block !important
+            }
+
+            .d-xl-flex {
+                display: -ms-flexbox !important;
+                display: flex !important
+            }
+
+            .d-xl-inline-flex {
+                display: -ms-inline-flexbox !important;
+                display: inline-flex !important
+            }
+        }
+
         .container {
             background-color: #1e1e1e;
             color: #cccccc;
             display: flex;
             padding-bottom: 20px;
+            min-height: calc(100vh);
         }
 
         div.wrapper {
@@ -134,10 +274,10 @@
     <div class="container">
         <div class="wrapper">
             <h1>
-                <span>Arseniy Zuev:</span><br /> <span class="mtk6">Software Developer</span>
+                <span>Arseniy Zuev:</span><br class="d-inline d-lg-none" /> <span class="mtk6">Software Developer</span>
             </h1>
 
-            <div class="view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7"
+            <div class="d-block d-md-none view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7"
                 style="font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 18px; letter-spacing: 0px;">
                 <div style="top:0px;height:18px;" class="view-line"><span><span class="mtk1">{</span></span></div>
                 <div style="top:18px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
@@ -197,7 +337,8 @@
                 <div style="top:360px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
                             class="mtk9">"links"</span><span class="mtk1">:&nbsp;[</span></span></div>
                 <div style="top:378px;height:18px;" class="view-line"><span><span
-                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/pdf.png" class="icon" /></span></span></div>
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/pdf.png"
+                                class="icon" /></span></span></div>
                 <div style="top:396px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
                             class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
@@ -210,7 +351,8 @@
                 <div style="top:432px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
                 <div style="top:450px;height:18px;" class="view-line"><span><span
-                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/linkedin.ico" class="icon" /></span></span></div>
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/linkedin.ico"
+                                class="icon" /></span></span></div>
                 <div style="top:468px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
                             class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
@@ -223,7 +365,8 @@
                 <div style="top:504px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
                 <div style="top:522px;height:18px;" class="view-line"><span><span
-                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/upwork.ico" class="icon" /></span></span></div>
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/upwork.ico"
+                                class="icon" /></span></span></div>
                 <div style="top:540px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
                             class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
@@ -237,7 +380,8 @@
                 <div style="top:576px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
                 <div style="top:594px;height:18px;" class="view-line"><span><span
-                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/github.png" class="icon" /></span></span></div>
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/github.png"
+                                class="icon" /></span></span></div>
                 <div style="top:612px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
                             class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
@@ -286,8 +430,138 @@
                             class="mtk11">"email"</span><span class="mtk1">,</span></span></div>
                 <div style="top:900px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                            class="mtk9">"value"</span><span class="mtk1">:&nbsp;</span><a
-                            class="mtk11" href="mailto:arseniy.zuev@gmail.com">"arseniy.zuev@gmail.com"</a></span></div>
+                            class="mtk9">"value"</span><span class="mtk1">:&nbsp;</span><a class="mtk11"
+                            href="mailto:arseniy.zuev@gmail.com">"arseniy.zuev@gmail.com"</a></span></div>
+                <div style="top:918px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;}</span></span></div>
+                <div style="top:936px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;]</span></span></div>
+                <div style="top:954px;height:18px;" class="view-line"><span><span class="mtk1">}</span></span></div>
+            </div>
+
+            <div class="d-none d-md-block view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7"
+                style="font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 18px; letter-spacing: 0px;">
+                <div style="top:0px;height:18px;" class="view-line"><span><span class="mtk1">{</span></span></div>
+                <div style="top:18px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"name"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"Arseniy&nbsp;Zuev"</span><span class="mtk1">,</span></span></div>
+                <div style="top:36px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"Front-end&nbsp;Developer"</span><span class="mtk1">,</span></span></div>
+                <div style="top:54px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"location"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"Warsaw&nbsp;(PL)"</span><span class="mtk1">,</span></span></div>
+                <div style="top:72px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"skills"</span><span class="mtk1">:&nbsp;[</span></span></div>
+                <div style="top:90px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk11">"Vue.js"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Nuxt"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Vuex"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"ESNext"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Typescript"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"SCSS"</span><span
+                            class="mtk1">,&nbsp;</span><span
+                            class="mtk11">"Angular.js&nbsp;(1.x)"</span><span class="mtk1">,</span></span></div>
+                <div style="top:216px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk11">"PHP"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Laravel"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Symfony"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"Kohana"</span><span
+                            class="mtk1">,&nbsp;</span><span
+                            class="mtk11">"Zend&nbsp;Framework"</span><span class="mtk1">,&nbsp;</span><span class="mtk11">"PostgreSQL"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"MySQL"</span></span></div>
+                <div style="top:342px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;],</span></span></div>
+                <div style="top:360px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"links"</span><span class="mtk1">:&nbsp;[</span></span></div>
+                <div style="top:378px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/pdf.png"
+                                class="icon" /></span></span></div>
+                <div style="top:396px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"CV"</span><span class="mtk1">,</span></span></div>
+                <div style="top:414px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"link"</span><span class="mtk1">:&nbsp;</span><span class="mtk11">"</span><a
+                            class="mtk11 detected-link" href="https://zuev.dev/cv.pdf">https://zuev.dev/cv.pdf</a><span
+                            class="mtk11">"</span></span></div>
+                <div style="top:432px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
+                <div style="top:450px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/linkedin.ico"
+                                class="icon" /></span></span></div>
+                <div style="top:468px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"LinkedIn"</span><span class="mtk1">,</span></span></div>
+                <div style="top:486px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"link"</span><span class="mtk1">:&nbsp;</span><span class="mtk11">"</span><a
+                            class="mtk11 detected-link" href="https://www.linkedin.com/in/zuevars/">https://www.linkedin.com/in/zuevars/</a><span
+                            class="mtk11">"</span></span></div>
+                <div style="top:504px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
+                <div style="top:522px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/upwork.ico"
+                                class="icon" /></span></span></div>
+                <div style="top:540px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"Upwork"</span><span class="mtk1">,</span></span></div>
+                <div style="top:558px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"link"</span><span class="mtk1">:&nbsp;</span><span class="mtk11">"</span><a
+                            class="mtk11 detected-link"
+                            href="https://www.upwork.com/freelancers/~01a5d967f6d187efa9">https://www.upwork.com/freelancers/~01a5d967f6d187efa9</a><span
+                            class="mtk11">"</span></span></div>
+                <div style="top:576px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
+                <div style="top:594px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<img src="icons/github.png"
+                                class="icon" /></span></span></div>
+                <div style="top:612px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"title"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"GitHub"</span><span class="mtk1">,</span></span></div>
+                <div style="top:630px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"link"</span><span class="mtk1">:&nbsp;</span><span class="mtk11">"</span><a
+                            class="mtk11 detected-link" href="https://github.com/ZuevArseniy">https://github.com/ZuevArseniy</a><span
+                            class="mtk11">"</span></span></div>
+                <div style="top:648px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;}</span></span></div>
+                <div style="top:666px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;],</span></span></div>
+                <div style="top:684px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"interests"</span><span class="mtk1">:&nbsp;[&nbsp;</span><span class="mtk11">"KaiOS"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"DSP"</span><span
+                            class="mtk1">,&nbsp;</span><span class="mtk11">"algorithms"</span><span
+                            class="mtk1">&nbsp;],</span></span></div>
+                <div style="top:774px;height:18px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span
+                            class="mtk9">"contacts"</span><span class="mtk1">:&nbsp;[</span></span></div>
+                <div style="top:792px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{</span></span></div>
+                <div style="top:810px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"type"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"phone"</span><span class="mtk1">,</span></span></div>
+                <div style="top:828px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"value"</span><span class="mtk1">:&nbsp;</span><a href="tel:+48570434927"
+                            class="mtk11">"+48&nbsp;570&nbsp;434&nbsp;927"</a></span></div>
+                <div style="top:846px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;},</span></span></div>
+                <div style="top:864px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;{</span></span></div>
+                <div style="top:882px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"type"</span><span class="mtk1">:&nbsp;</span><span
+                            class="mtk11">"email"</span><span class="mtk1">,</span></span></div>
+                <div style="top:900px;height:18px;" class="view-line"><span><span
+                            class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                            class="mtk9">"value"</span><span class="mtk1">:&nbsp;</span><a class="mtk11"
+                            href="mailto:arseniy.zuev@gmail.com">"arseniy.zuev@gmail.com"</a></span></div>
                 <div style="top:918px;height:18px;" class="view-line"><span><span
                             class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;}</span></span></div>
                 <div style="top:936px;height:18px;" class="view-line"><span><span
@@ -297,4 +571,5 @@
         </div>
     </div>
 </body>
+
 </html>
